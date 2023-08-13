@@ -8,6 +8,7 @@ DATE = "20230808"
 BASE_FULL_DIR = f"{BASE_DIR}//{REGION}_{DATE}//TextAsset"
 
 TARGET_FILES = [
+  "data_AccumulativeCourse_AccumulativeCourse.bytes",
   "data_dropV2_DropV2.bytes",
   "data_dropV2_DropCollection.bytes",
   "data_equip_EquipmentSuit.bytes",

@@ -1,6 +1,8 @@
 import subprocess
 import os
 
+TEMPLATE_FILE_NAME = f"json_serializer_template_basic.lua"
+
 TARGET_FILES = [
   "data_dropV2_DropV2.bytes",
   "data_dropV2_DropCollection.bytes",
@@ -81,6 +83,9 @@ for TARGET_FILE in TARGET_FILES:
     contents = filename.readlines()
 
     for content in contents:
+      if content.startswith("do"):
+        break
+
       if f"return {FILE_NAME}" not in content and f"{FILE_NAME}.funcNew=function()end;" not in content and f"return table;" not in content:
         TABLE.append(content)
       else:
@@ -88,12 +93,28 @@ for TARGET_FILE in TARGET_FILES:
       
 
   # with open(f"json_serializer_template.lua", "r", encoding="utf8") as filename:
-  with open(f"json_serializer_template_basic.lua", "r", encoding="utf8") as filename:
+  with open(TEMPLATE_FILE_NAME, "r", encoding="utf8") as filename:
     TEMPLATE = filename.readlines()
 
   FINAL_LUA = []
+  
+  # to_replace = """
+  # do
+  #   local base = { __index = __default_values, __newindex = function() error( "Attempt to modify read-only table" ) end }
+  #   for k, v in pairs( """ + FILE_NAME + """ ) do
+  #     setmetatable( v, base )
+  #   end
+  #   base.__metatable = false
+  # end
+  # """
+
+  # print(to_replace)
+
+  # TABLE = "".join(TABLE).replace("to_replace", "")
+  TABLE = "".join(TABLE)
+
   for line in TEMPLATE:
-    line = line.replace("{{TABLE}}", "".join(TABLE))
+    line = line.replace("{{TABLE}}", TABLE)
     line = line.replace("{{FILE_NAME}}", FILE_NAME)
     line = line.replace("{{TITLE}}", TITLE)
 
