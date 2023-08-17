@@ -83,7 +83,7 @@ for TARGET_FILE in TARGET_FILES:
     contents = filename.readlines()
 
     for content in contents:
-      if content.startswith("do"):
+      if content.startswith("do") or content.startswith("for _,v"):
         break
 
       if f"return {FILE_NAME}" not in content and f"{FILE_NAME}.funcNew=function()end;" not in content and f"return table;" not in content:

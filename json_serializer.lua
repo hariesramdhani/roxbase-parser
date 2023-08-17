@@ -84,26 +84,18 @@ local baseTable={
   ["Quality"]= 1,
   ["TopSum"]= 36
 }
-for _,v in pairs(table) do
-  setmetatable(v,{__index  = baseTable});
-end
 
 
 -- Combine the attributes
-local json_table = {}
 for _, v in pairs(table) do
-  local combined_table = {}
-  for k, base_value in pairs(baseTable) do
-      if v[k] == nil then
-          combined_table[k] = base_value
-      else
-          combined_table[k] = v[k]
-      end
-  end
-  json_table[_] = combined_table
+    for attr_key, attr_value in pairs(baseTable) do
+        if v[attr_key] == nil then
+            v[attr_key] = attr_value
+        end
+    end
 end
 
-local json_string = to_json(json_table)
+local json_string = to_json(table)
 
 -- Specify the file path where you want to save the JSON
 local file_path = "JSON//data_pet_PetInitEndowment.json"
