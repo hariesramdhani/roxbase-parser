@@ -1,0 +1,12034 @@
+local table = {
+	[100001] = {
+		["StaticId"] = 100001,
+		["attrDesc"] = {
+			"AttrPool_3102024_1",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 5,
+				["attrValue"] = 2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "课程达标属性测试",
+	},
+	[100002] = {
+		["StaticId"] = 100002,
+		["attrs"] = {
+			{
+				["attrId"] = 105,
+				["attrValue"] = 0.04,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 128,
+				["attrValue"] = -0.04,
+				["type"] = 1,
+			},
+		},
+		["name"] = "转职装备通用",
+	},
+	[100003] = {
+		["StaticId"] = 100003,
+		["attrs"] = {
+			{
+				["attrId"] = 105,
+				["attrValue"] = 0.06,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 128,
+				["attrValue"] = -0.06,
+				["type"] = 1,
+			},
+		},
+		["name"] = "转职装备通用",
+	},
+	[100004] = {
+		["StaticId"] = 100004,
+		["attrs"] = {
+			{
+				["attrId"] = 105,
+				["attrValue"] = 0.08,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 128,
+				["attrValue"] = -0.08,
+				["type"] = 1,
+			},
+		},
+		["name"] = "转职装备通用",
+	},
+	[100005] = {
+		["StaticId"] = 100005,
+		["attrs"] = {
+			{
+				["attrId"] = 105,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 128,
+				["attrValue"] = -0.1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "转职装备通用",
+	},
+	[200004] = {
+		["StaticId"] = 200004,
+		["attrs"] = {
+			{
+				["FashionItemSkillId"] = 200004,
+				["type"] = 15,
+			},
+		},
+		["name"] = "宋干节大水枪背饰技能",
+	},
+	[200005] = {
+		["StaticId"] = 200005,
+		["attrs"] = {
+			{
+				["FashionItemSkillId"] = 200005,
+				["type"] = 15,
+			},
+		},
+		["name"] = "宋干节小水枪背饰技能",
+	},
+	[200006] = {
+		["StaticId"] = 200006,
+		["attrs"] = {
+			{
+				["FashionItemSkillId"] = 200006,
+				["type"] = 15,
+			},
+		},
+		["name"] = "宋干节小水枪背饰技能",
+	},
+	[200007] = {
+		["StaticId"] = 200007,
+		["attrs"] = {
+			{
+				["FashionItemSkillId"] = 200007,
+				["type"] = 15,
+			},
+		},
+		["name"] = "宋干节小水枪背饰技能",
+	},
+	[4109996] = {
+		["StaticId"] = 4109996,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {},
+				["argumentValue"] = {},
+				["improvedLevel"] = 0,
+				["skillId"] = 4109996,
+				["type"] = 2,
+			},
+		},
+		["name"] = "4109996",
+	},
+	[4109999] = {
+		["StaticId"] = 4109999,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {},
+				["argumentValue"] = {},
+				["improvedLevel"] = 0,
+				["skillId"] = 100020,
+				["type"] = 2,
+			},
+		},
+		["name"] = "4109999",
+	},
+	[8100001] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100001,
+		["attrDesc"] = {
+			"SkillDesc_8100001",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.05,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100002] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100002,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100003] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100003,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100004] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100004,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100005] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100005,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.25,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100006] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100006,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100007] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100007,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.35,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100008] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100008,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.4,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100009] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100009,
+		["attrDesc"] = {
+			"SkillDesc_8100002",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.00625,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.05,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100010] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100010,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100011] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100011,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.01875,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100012] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100012,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.025,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100013] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100013,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.03125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.25,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100014] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100014,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0375,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100015] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100015,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.04375,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.35,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100016] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100016,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.05,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.4,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100017] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100017,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.00625,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.05,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100018] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100018,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100019] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100019,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.01875,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100020] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100020,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.025,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100021] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100021,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.03125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.25,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100022] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100022,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0375,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100023] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100023,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.04375,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.35,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100024] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100024,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.05,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.4,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100025] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100025,
+		["attrDesc"] = {
+			"SkillDesc_8100004",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 0.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100026] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100026,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100027] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100027,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 1.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100028] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100028,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100029] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100029,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 2.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100030] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100030,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100031] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100031,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 3.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100032] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100032,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = 4,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100033] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100033,
+		["attrDesc"] = {
+			"SkillDesc_8100005",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -0.125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.05,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100034] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100034,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -0.25,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100035] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100035,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -0.375,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100036] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100036,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -0.5,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.4,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100037] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100037,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -0.625,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.5,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.25,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100038] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100038,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -0.75,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.6,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100039] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100039,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -0.875,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.7,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.35,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100040] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100040,
+		["attrs"] = {
+			{
+				["attrId"] = 15,
+				["attrValue"] = -1,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 311,
+				["attrValue"] = 0.8,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 22,
+				["attrValue"] = 0.4,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100041] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100041,
+		["attrDesc"] = {
+			"SkillDesc_8100006",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100042] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100042,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.025,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100043] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100043,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0375,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100044] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100044,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.05,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.4,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100045] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100045,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0625,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100046] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100046,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.075,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.6,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100047] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100047,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0875,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.7,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100048] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100048,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.1,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 314,
+				["attrValue"] = 0.8,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100049] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100049,
+		["attrDesc"] = {
+			"SkillDesc_8100007",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100050] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100050,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.025,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100051] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100051,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0375,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100052] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100052,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.05,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.4,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100053] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100053,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0625,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100054] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100054,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.075,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.6,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100055] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100055,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.0875,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.7,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100056] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100056,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = -0.1,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 315,
+				["attrValue"] = 0.8,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100057] = {
+		["Conditions"] = {
+			{
+				["max"] = 9,
+				["min"] = 8,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100057,
+		["attrDesc"] = {
+			"SkillDesc_8100008",
+		},
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.025,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 0.25,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100058] = {
+		["Conditions"] = {
+			{
+				["max"] = 10,
+				["min"] = 9,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100058,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.05,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 0.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100059] = {
+		["Conditions"] = {
+			{
+				["max"] = 11,
+				["min"] = 10,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100059,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.075,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 0.75,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100060] = {
+		["Conditions"] = {
+			{
+				["max"] = 12,
+				["min"] = 11,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100060,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.1,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 1,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100061] = {
+		["Conditions"] = {
+			{
+				["max"] = 13,
+				["min"] = 12,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100061,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.125,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 1.25,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100062] = {
+		["Conditions"] = {
+			{
+				["max"] = 14,
+				["min"] = 13,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100062,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 1.5,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100063] = {
+		["Conditions"] = {
+			{
+				["max"] = 15,
+				["min"] = 14,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100063,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.175,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 1.75,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100064] = {
+		["Conditions"] = {
+			{
+				["max"] = 16,
+				["min"] = 15,
+				["type"] = "RefineLevel",
+			},
+		},
+		["OnlyShowAttrDesc"] = 1,
+		["StaticId"] = 8100064,
+		["attrs"] = {
+			{
+				["attrId"] = 17,
+				["attrValue"] = 0.2,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 15,
+				["attrValue"] = 2,
+				["type"] = 1,
+			},
+		},
+		["name"] = "100MVP装备独有属性",
+	},
+	[8100065] = {
+		["StaticId"] = 8100065,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0025,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81000100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备手枪独有属性",
+	},
+	[8100066] = {
+		["StaticId"] = 8100066,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.32,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81000200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备霰弹枪独有属性",
+	},
+	[8100067] = {
+		["StaticId"] = 8100067,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81000300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备自动来福独有属性",
+	},
+	[8100068] = {
+		["StaticId"] = 8100068,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.2,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81000400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备狙击来福独有属性",
+	},
+	[8100165] = {
+		["StaticId"] = 8100165,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0025,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81000100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备手枪独有属性",
+	},
+	[8100166] = {
+		["StaticId"] = 8100166,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.32,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81000200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备霰弹枪独有属性",
+	},
+	[8100167] = {
+		["StaticId"] = 8100167,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81000300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备自动来福独有属性",
+	},
+	[8100168] = {
+		["StaticId"] = 8100168,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.2,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81000400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备狙击来福独有属性",
+	},
+	[8100265] = {
+		["StaticId"] = 8100265,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0025,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81000100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备手枪独有属性",
+	},
+	[8100266] = {
+		["StaticId"] = 8100266,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.32,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81000200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备霰弹枪独有属性",
+	},
+	[8100267] = {
+		["StaticId"] = 8100267,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81000300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备自动来福独有属性",
+	},
+	[8100268] = {
+		["StaticId"] = 8100268,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.2,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81000400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备狙击来福独有属性",
+	},
+	[8100365] = {
+		["StaticId"] = 8100365,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0025,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81000100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备手枪独有属性",
+	},
+	[8100366] = {
+		["StaticId"] = 8100366,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.32,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81000200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备霰弹枪独有属性",
+	},
+	[8100367] = {
+		["StaticId"] = 8100367,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81000300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备自动来福独有属性",
+	},
+	[8100368] = {
+		["StaticId"] = 8100368,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.2,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81000400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "100MVP装备狙击来福独有属性",
+	},
+	[8110001] = {
+		["StaticId"] = 8110001,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100111,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110002] = {
+		["StaticId"] = 8110002,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100113,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110003] = {
+		["StaticId"] = 8110003,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.02,
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100109,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110004] = {
+		["StaticId"] = 8110004,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100106,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110005] = {
+		["StaticId"] = 8110005,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.025,
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100108,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110006] = {
+		["StaticId"] = 8110006,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.025,
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100107,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110007] = {
+		["StaticId"] = 8110007,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.2,
+					0.03,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100110,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110008] = {
+		["StaticId"] = 8110008,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100112,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110009] = {
+		["StaticId"] = 8110009,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.07,
+					0.15,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100105,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110010] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8110010,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.04,
+					0.1,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100104,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110011] = {
+		["StaticId"] = 8110011,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.06,
+					0.06,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100114,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110012] = {
+		["StaticId"] = 8110012,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.06,
+					0.06,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100115,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110013] = {
+		["StaticId"] = 8110013,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.08,
+					0.08,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100102,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110014] = {
+		["StaticId"] = 8110014,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100101,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110015] = {
+		["StaticId"] = 8110015,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100103,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110016] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8110016,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.04,
+					0.1,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100116,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110017] = {
+		["StaticId"] = 8110017,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					3,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器手枪独有属性",
+	},
+	[8110018] = {
+		["StaticId"] = 8110018,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					2,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器霰弹枪独有属性",
+	},
+	[8110019] = {
+		["StaticId"] = 8110019,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.2,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器自动来福独有属性",
+	},
+	[8110020] = {
+		["StaticId"] = 8110020,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.1,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81100400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器狙击来福独有属性",
+	},
+	[8110101] = {
+		["StaticId"] = 8110101,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100111,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110102] = {
+		["StaticId"] = 8110102,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100113,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110103] = {
+		["StaticId"] = 8110103,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.02,
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100109,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110104] = {
+		["StaticId"] = 8110104,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100106,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110105] = {
+		["StaticId"] = 8110105,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.025,
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100108,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110106] = {
+		["StaticId"] = 8110106,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.025,
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100107,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110107] = {
+		["StaticId"] = 8110107,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.2,
+					0.03,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100110,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110108] = {
+		["StaticId"] = 8110108,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100112,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110109] = {
+		["StaticId"] = 8110109,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.07,
+					0.15,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100105,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110110] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8110110,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.04,
+					0.1,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100104,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110111] = {
+		["StaticId"] = 8110111,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.06,
+					0.06,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100114,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110112] = {
+		["StaticId"] = 8110112,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.06,
+					0.06,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100115,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110113] = {
+		["StaticId"] = 8110113,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.08,
+					0.08,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100102,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110114] = {
+		["StaticId"] = 8110114,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100101,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110115] = {
+		["StaticId"] = 8110115,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100103,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110116] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8110116,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.04,
+					0.1,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100116,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110117] = {
+		["StaticId"] = 8110117,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					3,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器手枪独有属性",
+	},
+	[8110118] = {
+		["StaticId"] = 8110118,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					2,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器霰弹枪独有属性",
+	},
+	[8110119] = {
+		["StaticId"] = 8110119,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.2,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器自动来福独有属性",
+	},
+	[8110120] = {
+		["StaticId"] = 8110120,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.1,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81100400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器狙击来福独有属性",
+	},
+	[8110201] = {
+		["StaticId"] = 8110201,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100111,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110202] = {
+		["StaticId"] = 8110202,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100113,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110203] = {
+		["StaticId"] = 8110203,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.02,
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100109,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110204] = {
+		["StaticId"] = 8110204,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100106,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110205] = {
+		["StaticId"] = 8110205,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.025,
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100108,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110206] = {
+		["StaticId"] = 8110206,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.025,
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100107,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110207] = {
+		["StaticId"] = 8110207,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.2,
+					0.03,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100110,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110208] = {
+		["StaticId"] = 8110208,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100112,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110209] = {
+		["StaticId"] = 8110209,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.07,
+					0.15,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100105,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110210] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8110210,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.04,
+					0.1,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100104,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110211] = {
+		["StaticId"] = 8110211,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.06,
+					0.06,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100114,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110212] = {
+		["StaticId"] = 8110212,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.06,
+					0.06,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100115,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110213] = {
+		["StaticId"] = 8110213,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.08,
+					0.08,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100102,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110214] = {
+		["StaticId"] = 8110214,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100101,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110215] = {
+		["StaticId"] = 8110215,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100103,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110216] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8110216,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.04,
+					0.1,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100116,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器独有属性",
+	},
+	[8110217] = {
+		["StaticId"] = 8110217,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					3,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器手枪独有属性",
+	},
+	[8110218] = {
+		["StaticId"] = 8110218,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					2,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器霰弹枪独有属性",
+	},
+	[8110219] = {
+		["StaticId"] = 8110219,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.2,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器自动来福独有属性",
+	},
+	[8110220] = {
+		["StaticId"] = 8110220,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.1,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81100400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "110级MVP武器狙击来福独有属性",
+	},
+	[8120001] = {
+		["StaticId"] = 8120001,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120002] = {
+		["StaticId"] = 8120002,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200002,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120003] = {
+		["StaticId"] = 8120003,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200003,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120004] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8120004,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200004,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120005] = {
+		["StaticId"] = 8120005,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200005,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120006] = {
+		["StaticId"] = 8120006,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200006,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120007] = {
+		["StaticId"] = 8120007,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200007,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120008] = {
+		["StaticId"] = 8120008,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200008,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120009] = {
+		["StaticId"] = 8120009,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120010] = {
+		["StaticId"] = 8120010,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					5,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200010,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120011] = {
+		["StaticId"] = 8120011,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					5,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200012,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120012] = {
+		["StaticId"] = 8120012,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120013] = {
+		["StaticId"] = 8120013,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120014] = {
+		["StaticId"] = 8120014,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200011,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120015] = {
+		["StaticId"] = 8120015,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200011,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120016] = {
+		["StaticId"] = 8120016,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120017] = {
+		["StaticId"] = 8120017,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					5,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200013,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120018] = {
+		["StaticId"] = 8120018,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.15,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200014,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120019] = {
+		["StaticId"] = 8120019,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.15,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200015,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120020] = {
+		["StaticId"] = 8120020,
+		["attrs"] = {
+			{
+				["attrId"] = 104,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 127,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120021] = {
+		["StaticId"] = 8120021,
+		["attrs"] = {
+			{
+				["attrId"] = 109,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 132,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120022] = {
+		["StaticId"] = 8120022,
+		["attrs"] = {
+			{
+				["attrId"] = 112,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 135,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120023] = {
+		["StaticId"] = 8120023,
+		["attrs"] = {
+			{
+				["attrId"] = 111,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 134,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120024] = {
+		["StaticId"] = 8120024,
+		["attrs"] = {
+			{
+				["attrId"] = 101,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 124,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120025] = {
+		["StaticId"] = 8120025,
+		["attrs"] = {
+			{
+				["attrId"] = 105,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 128,
+				["attrValue"] = 0.15,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120026] = {
+		["StaticId"] = 8120026,
+		["attrs"] = {
+			{
+				["attrId"] = 116,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 139,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120027] = {
+		["StaticId"] = 8120027,
+		["attrs"] = {
+			{
+				["attrId"] = 118,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 141,
+				["attrValue"] = 0.3,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120028] = {
+		["StaticId"] = 8120028,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器手枪独有属性",
+	},
+	[8120029] = {
+		["StaticId"] = 8120029,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.12,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器霰弹枪独有属性",
+	},
+	[8120030] = {
+		["StaticId"] = 8120030,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					1.2,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器自动来福独有属性",
+	},
+	[8120031] = {
+		["StaticId"] = 8120031,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.12,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81200400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器狙击来福独有属性",
+	},
+	[8120101] = {
+		["StaticId"] = 8120101,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120102] = {
+		["StaticId"] = 8120102,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200002,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120103] = {
+		["StaticId"] = 8120103,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200003,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120104] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8120104,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200004,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120105] = {
+		["StaticId"] = 8120105,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200005,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120106] = {
+		["StaticId"] = 8120106,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200006,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120107] = {
+		["StaticId"] = 8120107,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200007,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120108] = {
+		["StaticId"] = 8120108,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200008,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120109] = {
+		["StaticId"] = 8120109,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120110] = {
+		["StaticId"] = 8120110,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					5,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200010,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120111] = {
+		["StaticId"] = 8120111,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					5,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200012,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120112] = {
+		["StaticId"] = 8120112,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120113] = {
+		["StaticId"] = 8120113,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120114] = {
+		["StaticId"] = 8120114,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200011,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120115] = {
+		["StaticId"] = 8120115,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200011,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120116] = {
+		["StaticId"] = 8120116,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.08,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200009,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120117] = {
+		["StaticId"] = 8120117,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					5,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200013,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120118] = {
+		["StaticId"] = 8120118,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.15,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200014,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120119] = {
+		["StaticId"] = 8120119,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.15,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200015,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[8120120] = {
+		["StaticId"] = 8120120,
+		["attrs"] = {
+			{
+				["attrId"] = 104,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 127,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120121] = {
+		["StaticId"] = 8120121,
+		["attrs"] = {
+			{
+				["attrId"] = 109,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 132,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120122] = {
+		["StaticId"] = 8120122,
+		["attrs"] = {
+			{
+				["attrId"] = 112,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 135,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120123] = {
+		["StaticId"] = 8120123,
+		["attrs"] = {
+			{
+				["attrId"] = 111,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 134,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120124] = {
+		["StaticId"] = 8120124,
+		["attrs"] = {
+			{
+				["attrId"] = 101,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 124,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120125] = {
+		["StaticId"] = 8120125,
+		["attrs"] = {
+			{
+				["attrId"] = 105,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 128,
+				["attrValue"] = 0.19,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120126] = {
+		["StaticId"] = 8120126,
+		["attrs"] = {
+			{
+				["attrId"] = 116,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 139,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120127] = {
+		["StaticId"] = 8120127,
+		["attrs"] = {
+			{
+				["attrId"] = 118,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+			{
+				["attrId"] = 141,
+				["attrValue"] = 0.37,
+				["type"] = 1,
+			},
+		},
+		["name"] = "120级MINI独有属性",
+	},
+	[8120128] = {
+		["StaticId"] = 8120128,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器手枪独有属性",
+	},
+	[8120129] = {
+		["StaticId"] = 8120129,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.12,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器霰弹枪独有属性",
+	},
+	[8120130] = {
+		["StaticId"] = 8120130,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					1.2,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器自动来福独有属性",
+	},
+	[8120131] = {
+		["StaticId"] = 8120131,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.12,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81200400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器狙击来福独有属性",
+	},
+	[8130021] = {
+		["StaticId"] = 8130021,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81302300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP手枪独有属性",
+	},
+	[8130022] = {
+		["StaticId"] = 8130022,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81302400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP霰弹枪独有属性",
+	},
+	[8130023] = {
+		["StaticId"] = 8130023,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					3.6,
+					0.72,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81302500,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP自动来福独有属性",
+	},
+	[8130024] = {
+		["StaticId"] = 8130024,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.4,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81302600,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP狙击来福独有属性",
+	},
+	[8130121] = {
+		["StaticId"] = 8130121,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81302300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP手枪独有属性",
+	},
+	[8130122] = {
+		["StaticId"] = 8130122,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81302400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP霰弹枪独有属性",
+	},
+	[8130123] = {
+		["StaticId"] = 8130123,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					3.6,
+					0.72,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81302500,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP自动来福独有属性",
+	},
+	[8130124] = {
+		["StaticId"] = 8130124,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.4,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81302600,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP狙击来福独有属性",
+	},
+	[8130221] = {
+		["StaticId"] = 8130221,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81302300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP手枪独有属性",
+	},
+	[8130222] = {
+		["StaticId"] = 8130222,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81302400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP霰弹枪独有属性",
+	},
+	[8130223] = {
+		["StaticId"] = 8130223,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					3.6,
+					0.72,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81302500,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP自动来福独有属性",
+	},
+	[8130224] = {
+		["StaticId"] = 8130224,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.4,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 81302600,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP狙击来福独有属性",
+	},
+	[8130321] = {
+		["StaticId"] = 8130321,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81302300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP手枪独有属性",
+	},
+	[8130322] = {
+		["StaticId"] = 8130322,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81302400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP霰弹枪独有属性",
+	},
+	[8130323] = {
+		["StaticId"] = 8130323,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					3.6,
+					0.72,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81302500,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP自动来福独有属性",
+	},
+	[8130324] = {
+		["StaticId"] = 8130324,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.4,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 81302600,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP狙击来福独有属性",
+	},
+	[8130421] = {
+		["StaticId"] = 8130421,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 81302300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP手枪独有属性",
+	},
+	[8130422] = {
+		["StaticId"] = 8130422,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 81302400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP霰弹枪独有属性",
+	},
+	[8130423] = {
+		["StaticId"] = 8130423,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					3.6,
+					0.72,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 81302500,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP自动来福独有属性",
+	},
+	[8130424] = {
+		["StaticId"] = 8130424,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.4,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 81302600,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP狙击来福独有属性",
+	},
+	[8130521] = {
+		["StaticId"] = 8130521,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 81302300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP手枪独有属性",
+	},
+	[8130522] = {
+		["StaticId"] = 8130522,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.25,
+					0.1,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 81302400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP霰弹枪独有属性",
+	},
+	[8130523] = {
+		["StaticId"] = 8130523,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					3.6,
+					0.72,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 81302500,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP自动来福独有属性",
+	},
+	[8130524] = {
+		["StaticId"] = 8130524,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.4,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 81302600,
+				["type"] = 2,
+			},
+		},
+		["name"] = "130级80MVP狙击来福独有属性",
+	},
+	[8600001] = {
+		["StaticId"] = 8600001,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600002] = {
+		["StaticId"] = 8600002,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600003] = {
+		["StaticId"] = 8600003,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600004] = {
+		["StaticId"] = 8600004,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600005] = {
+		["StaticId"] = 8600005,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600006] = {
+		["StaticId"] = 8600006,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600007] = {
+		["StaticId"] = 8600007,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600008] = {
+		["StaticId"] = 8600008,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600009] = {
+		["StaticId"] = 8600009,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600010] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600010,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600011] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600011,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600012] = {
+		["StaticId"] = 8600012,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600013] = {
+		["StaticId"] = 8600013,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600014] = {
+		["StaticId"] = 8600014,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600015] = {
+		["StaticId"] = 8600015,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600016] = {
+		["StaticId"] = 8600016,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600017] = {
+		["StaticId"] = 8600017,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600018] = {
+		["StaticId"] = 8600018,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600019] = {
+		["StaticId"] = 8600019,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600020] = {
+		["StaticId"] = 8600020,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600021] = {
+		["StaticId"] = 8600021,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600022] = {
+		["StaticId"] = 8600022,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8600101] = {
+		["StaticId"] = 8600101,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600102] = {
+		["StaticId"] = 8600102,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600103] = {
+		["StaticId"] = 8600103,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600104] = {
+		["StaticId"] = 8600104,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600105] = {
+		["StaticId"] = 8600105,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600106] = {
+		["StaticId"] = 8600106,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600107] = {
+		["StaticId"] = 8600107,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600108] = {
+		["StaticId"] = 8600108,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600109] = {
+		["StaticId"] = 8600109,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600110] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600110,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600111] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600111,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600112] = {
+		["StaticId"] = 8600112,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600113] = {
+		["StaticId"] = 8600113,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600114] = {
+		["StaticId"] = 8600114,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600115] = {
+		["StaticId"] = 8600115,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600116] = {
+		["StaticId"] = 8600116,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600117] = {
+		["StaticId"] = 8600117,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600118] = {
+		["StaticId"] = 8600118,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600119] = {
+		["StaticId"] = 8600119,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600120] = {
+		["StaticId"] = 8600120,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600121] = {
+		["StaticId"] = 8600121,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600122] = {
+		["StaticId"] = 8600122,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8600201] = {
+		["StaticId"] = 8600201,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600202] = {
+		["StaticId"] = 8600202,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600203] = {
+		["StaticId"] = 8600203,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600204] = {
+		["StaticId"] = 8600204,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600205] = {
+		["StaticId"] = 8600205,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600206] = {
+		["StaticId"] = 8600206,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600207] = {
+		["StaticId"] = 8600207,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600208] = {
+		["StaticId"] = 8600208,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600209] = {
+		["StaticId"] = 8600209,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600210] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600210,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600211] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600211,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600212] = {
+		["StaticId"] = 8600212,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600213] = {
+		["StaticId"] = 8600213,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600214] = {
+		["StaticId"] = 8600214,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600215] = {
+		["StaticId"] = 8600215,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600216] = {
+		["StaticId"] = 8600216,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600217] = {
+		["StaticId"] = 8600217,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600218] = {
+		["StaticId"] = 8600218,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600219] = {
+		["StaticId"] = 8600219,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600220] = {
+		["StaticId"] = 8600220,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600221] = {
+		["StaticId"] = 8600221,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600222] = {
+		["StaticId"] = 8600222,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8600301] = {
+		["StaticId"] = 8600301,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600302] = {
+		["StaticId"] = 8600302,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600303] = {
+		["StaticId"] = 8600303,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600304] = {
+		["StaticId"] = 8600304,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600305] = {
+		["StaticId"] = 8600305,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600306] = {
+		["StaticId"] = 8600306,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600307] = {
+		["StaticId"] = 8600307,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600308] = {
+		["StaticId"] = 8600308,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600309] = {
+		["StaticId"] = 8600309,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600310] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600310,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600311] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600311,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600312] = {
+		["StaticId"] = 8600312,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600313] = {
+		["StaticId"] = 8600313,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600314] = {
+		["StaticId"] = 8600314,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600315] = {
+		["StaticId"] = 8600315,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600316] = {
+		["StaticId"] = 8600316,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600317] = {
+		["StaticId"] = 8600317,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600318] = {
+		["StaticId"] = 8600318,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600319] = {
+		["StaticId"] = 8600319,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600320] = {
+		["StaticId"] = 8600320,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600321] = {
+		["StaticId"] = 8600321,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600322] = {
+		["StaticId"] = 8600322,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8600401] = {
+		["StaticId"] = 8600401,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600402] = {
+		["StaticId"] = 8600402,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600403] = {
+		["StaticId"] = 8600403,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600404] = {
+		["StaticId"] = 8600404,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600405] = {
+		["StaticId"] = 8600405,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600406] = {
+		["StaticId"] = 8600406,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600407] = {
+		["StaticId"] = 8600407,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600408] = {
+		["StaticId"] = 8600408,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600409] = {
+		["StaticId"] = 8600409,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600410] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600410,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600411] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600411,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600412] = {
+		["StaticId"] = 8600412,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600413] = {
+		["StaticId"] = 8600413,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600414] = {
+		["StaticId"] = 8600414,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600415] = {
+		["StaticId"] = 8600415,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600416] = {
+		["StaticId"] = 8600416,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600417] = {
+		["StaticId"] = 8600417,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600418] = {
+		["StaticId"] = 8600418,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600419] = {
+		["StaticId"] = 8600419,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600420] = {
+		["StaticId"] = 8600420,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600421] = {
+		["StaticId"] = 8600421,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600422] = {
+		["StaticId"] = 8600422,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8600501] = {
+		["StaticId"] = 8600501,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600502] = {
+		["StaticId"] = 8600502,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600503] = {
+		["StaticId"] = 8600503,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600504] = {
+		["StaticId"] = 8600504,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600505] = {
+		["StaticId"] = 8600505,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600506] = {
+		["StaticId"] = 8600506,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600507] = {
+		["StaticId"] = 8600507,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600508] = {
+		["StaticId"] = 8600508,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600509] = {
+		["StaticId"] = 8600509,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600510] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600510,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600511] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600511,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600512] = {
+		["StaticId"] = 8600512,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600513] = {
+		["StaticId"] = 8600513,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600514] = {
+		["StaticId"] = 8600514,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600515] = {
+		["StaticId"] = 8600515,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600516] = {
+		["StaticId"] = 8600516,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600517] = {
+		["StaticId"] = 8600517,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600518] = {
+		["StaticId"] = 8600518,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600519] = {
+		["StaticId"] = 8600519,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600520] = {
+		["StaticId"] = 8600520,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600521] = {
+		["StaticId"] = 8600521,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600522] = {
+		["StaticId"] = 8600522,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8600601] = {
+		["StaticId"] = 8600601,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600602] = {
+		["StaticId"] = 8600602,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600603] = {
+		["StaticId"] = 8600603,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600604] = {
+		["StaticId"] = 8600604,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600605] = {
+		["StaticId"] = 8600605,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600606] = {
+		["StaticId"] = 8600606,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600607] = {
+		["StaticId"] = 8600607,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600608] = {
+		["StaticId"] = 8600608,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600609] = {
+		["StaticId"] = 8600609,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600610] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600610,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600611] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600611,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600612] = {
+		["StaticId"] = 8600612,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600613] = {
+		["StaticId"] = 8600613,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600614] = {
+		["StaticId"] = 8600614,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600615] = {
+		["StaticId"] = 8600615,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600616] = {
+		["StaticId"] = 8600616,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600617] = {
+		["StaticId"] = 8600617,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600618] = {
+		["StaticId"] = 8600618,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600619] = {
+		["StaticId"] = 8600619,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600620] = {
+		["StaticId"] = 8600620,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600621] = {
+		["StaticId"] = 8600621,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600622] = {
+		["StaticId"] = 8600622,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 6,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8600701] = {
+		["StaticId"] = 8600701,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600702] = {
+		["StaticId"] = 8600702,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600703] = {
+		["StaticId"] = 8600703,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600704] = {
+		["StaticId"] = 8600704,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600705] = {
+		["StaticId"] = 8600705,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86008000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600706] = {
+		["StaticId"] = 8600706,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600707] = {
+		["StaticId"] = 8600707,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600708] = {
+		["StaticId"] = 8600708,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86002000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600709] = {
+		["StaticId"] = 8600709,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86003000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600710] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600710,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86007000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600711] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8600711,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86007001,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600712] = {
+		["StaticId"] = 8600712,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600713] = {
+		["StaticId"] = 8600713,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600714] = {
+		["StaticId"] = 8600714,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86005000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600715] = {
+		["StaticId"] = 8600715,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86004000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600716] = {
+		["StaticId"] = 8600716,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600717] = {
+		["StaticId"] = 8600717,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86001000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600718] = {
+		["StaticId"] = 8600718,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 86006000,
+				["type"] = 2,
+			},
+		},
+	},
+	[8600719] = {
+		["StaticId"] = 8600719,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 80600100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备手枪独有属性",
+	},
+	[8600720] = {
+		["StaticId"] = 8600720,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.13,
+					0.13,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 80600200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备霰弹枪独有属性",
+	},
+	[8600721] = {
+		["StaticId"] = 8600721,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 80600300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备自动来福独有属性",
+	},
+	[8600722] = {
+		["StaticId"] = 8600722,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 7,
+				["skillId"] = 80600400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "60MVP装备狙击来福独有属性",
+	},
+	[8800001] = {
+		["StaticId"] = 8800001,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800002] = {
+		["StaticId"] = 8800002,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800003] = {
+		["StaticId"] = 8800003,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800004] = {
+		["StaticId"] = 8800004,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800005] = {
+		["StaticId"] = 8800005,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800006] = {
+		["StaticId"] = 8800006,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800007] = {
+		["StaticId"] = 8800007,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800008] = {
+		["StaticId"] = 8800008,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800009] = {
+		["StaticId"] = 8800009,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800010] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800010,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88006000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800011] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800011,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88007000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800012] = {
+		["StaticId"] = 8800012,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800013] = {
+		["StaticId"] = 8800013,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800014] = {
+		["StaticId"] = 8800014,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800015] = {
+		["StaticId"] = 8800015,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800016] = {
+		["StaticId"] = 8800016,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800017] = {
+		["StaticId"] = 8800017,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800018] = {
+		["StaticId"] = 8800018,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800019] = {
+		["StaticId"] = 8800019,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 88008001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800020] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800020,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88006000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800021] = {
+		["StaticId"] = 8800021,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80800100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备手枪独有属性",
+	},
+	[8800022] = {
+		["StaticId"] = 8800022,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80800200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备霰弹枪独有属性",
+	},
+	[8800023] = {
+		["StaticId"] = 8800023,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.15,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80800300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备自动来福独有属性",
+	},
+	[8800024] = {
+		["StaticId"] = 8800024,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.15,
+					0.15,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80800400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备狙击来福独有属性",
+	},
+	[8800101] = {
+		["StaticId"] = 8800101,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800102] = {
+		["StaticId"] = 8800102,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800103] = {
+		["StaticId"] = 8800103,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800104] = {
+		["StaticId"] = 8800104,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800105] = {
+		["StaticId"] = 8800105,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800106] = {
+		["StaticId"] = 8800106,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800107] = {
+		["StaticId"] = 8800107,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800108] = {
+		["StaticId"] = 8800108,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800109] = {
+		["StaticId"] = 8800109,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800110] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800110,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88006000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800111] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800111,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88007000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800112] = {
+		["StaticId"] = 8800112,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800113] = {
+		["StaticId"] = 8800113,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800114] = {
+		["StaticId"] = 8800114,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800115] = {
+		["StaticId"] = 8800115,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800116] = {
+		["StaticId"] = 8800116,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800117] = {
+		["StaticId"] = 8800117,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800118] = {
+		["StaticId"] = 8800118,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800119] = {
+		["StaticId"] = 8800119,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 88008001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800121] = {
+		["StaticId"] = 8800121,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80800100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备手枪独有属性",
+	},
+	[8800122] = {
+		["StaticId"] = 8800122,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80800200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备霰弹枪独有属性",
+	},
+	[8800123] = {
+		["StaticId"] = 8800123,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.15,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80800300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备自动来福独有属性",
+	},
+	[8800124] = {
+		["StaticId"] = 8800124,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.15,
+					0.15,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80800400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备狙击来福独有属性",
+	},
+	[8800201] = {
+		["StaticId"] = 8800201,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800202] = {
+		["StaticId"] = 8800202,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800203] = {
+		["StaticId"] = 8800203,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800204] = {
+		["StaticId"] = 8800204,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800205] = {
+		["StaticId"] = 8800205,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800206] = {
+		["StaticId"] = 8800206,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800207] = {
+		["StaticId"] = 8800207,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800208] = {
+		["StaticId"] = 8800208,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800209] = {
+		["StaticId"] = 8800209,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800210] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800210,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88006000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800211] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800211,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88007000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800212] = {
+		["StaticId"] = 8800212,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800213] = {
+		["StaticId"] = 8800213,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800214] = {
+		["StaticId"] = 8800214,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800215] = {
+		["StaticId"] = 8800215,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800216] = {
+		["StaticId"] = 8800216,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800217] = {
+		["StaticId"] = 8800217,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800218] = {
+		["StaticId"] = 8800218,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800219] = {
+		["StaticId"] = 8800219,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 88008001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800221] = {
+		["StaticId"] = 8800221,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80800100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备手枪独有属性",
+	},
+	[8800222] = {
+		["StaticId"] = 8800222,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80800200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备霰弹枪独有属性",
+	},
+	[8800223] = {
+		["StaticId"] = 8800223,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.15,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80800300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备自动来福独有属性",
+	},
+	[8800224] = {
+		["StaticId"] = 8800224,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.15,
+					0.15,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80800400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备狙击来福独有属性",
+	},
+	[8800301] = {
+		["StaticId"] = 8800301,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800302] = {
+		["StaticId"] = 8800302,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800303] = {
+		["StaticId"] = 8800303,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800304] = {
+		["StaticId"] = 8800304,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800305] = {
+		["StaticId"] = 8800305,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800306] = {
+		["StaticId"] = 8800306,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800307] = {
+		["StaticId"] = 8800307,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800308] = {
+		["StaticId"] = 8800308,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800309] = {
+		["StaticId"] = 8800309,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800310] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800310,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88006000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800311] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800311,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88007000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800312] = {
+		["StaticId"] = 8800312,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800313] = {
+		["StaticId"] = 8800313,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800314] = {
+		["StaticId"] = 8800314,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800315] = {
+		["StaticId"] = 8800315,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800316] = {
+		["StaticId"] = 8800316,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800317] = {
+		["StaticId"] = 8800317,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800318] = {
+		["StaticId"] = 8800318,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800319] = {
+		["StaticId"] = 8800319,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 88008001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800321] = {
+		["StaticId"] = 8800321,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80800100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备手枪独有属性",
+	},
+	[8800322] = {
+		["StaticId"] = 8800322,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80800200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备霰弹枪独有属性",
+	},
+	[8800323] = {
+		["StaticId"] = 8800323,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.15,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80800300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备自动来福独有属性",
+	},
+	[8800324] = {
+		["StaticId"] = 8800324,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.15,
+					0.15,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80800400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备狙击来福独有属性",
+	},
+	[8800401] = {
+		["StaticId"] = 8800401,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800402] = {
+		["StaticId"] = 8800402,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800403] = {
+		["StaticId"] = 8800403,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800404] = {
+		["StaticId"] = 8800404,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800405] = {
+		["StaticId"] = 8800405,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800406] = {
+		["StaticId"] = 8800406,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800407] = {
+		["StaticId"] = 8800407,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800408] = {
+		["StaticId"] = 8800408,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800409] = {
+		["StaticId"] = 8800409,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800410] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800410,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88006000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800411] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800411,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88007000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800412] = {
+		["StaticId"] = 8800412,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800413] = {
+		["StaticId"] = 8800413,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800414] = {
+		["StaticId"] = 8800414,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800415] = {
+		["StaticId"] = 8800415,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800416] = {
+		["StaticId"] = 8800416,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800417] = {
+		["StaticId"] = 8800417,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800418] = {
+		["StaticId"] = 8800418,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800419] = {
+		["StaticId"] = 8800419,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 88008001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800421] = {
+		["StaticId"] = 8800421,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80800100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备手枪独有属性",
+	},
+	[8800422] = {
+		["StaticId"] = 8800422,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80800200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备霰弹枪独有属性",
+	},
+	[8800423] = {
+		["StaticId"] = 8800423,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.15,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80800300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备自动来福独有属性",
+	},
+	[8800424] = {
+		["StaticId"] = 8800424,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.15,
+					0.15,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80800400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备狙击来福独有属性",
+	},
+	[8800501] = {
+		["StaticId"] = 8800501,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800502] = {
+		["StaticId"] = 8800502,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800503] = {
+		["StaticId"] = 8800503,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800504] = {
+		["StaticId"] = 8800504,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800505] = {
+		["StaticId"] = 8800505,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88008000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800506] = {
+		["StaticId"] = 8800506,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800507] = {
+		["StaticId"] = 8800507,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800508] = {
+		["StaticId"] = 8800508,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800509] = {
+		["StaticId"] = 8800509,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800510] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800510,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88006000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800511] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8800511,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.0375,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88007000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800512] = {
+		["StaticId"] = 8800512,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800513] = {
+		["StaticId"] = 8800513,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.1,
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800514] = {
+		["StaticId"] = 8800514,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800515] = {
+		["StaticId"] = 8800515,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.025,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88005000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800516] = {
+		["StaticId"] = 8800516,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800517] = {
+		["StaticId"] = 8800517,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800518] = {
+		["StaticId"] = 8800518,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800519] = {
+		["StaticId"] = 8800519,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.05,
+					0.075,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 88008001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备独有属性",
+	},
+	[8800521] = {
+		["StaticId"] = 8800521,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.03,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80800100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备手枪独有属性",
+	},
+	[8800522] = {
+		["StaticId"] = 8800522,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.02,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80800200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备霰弹枪独有属性",
+	},
+	[8800523] = {
+		["StaticId"] = 8800523,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.01,
+					0.15,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80800300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备自动来福独有属性",
+	},
+	[8800524] = {
+		["StaticId"] = 8800524,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.15,
+					0.15,
+				},
+				["improvedLevel"] = 5,
+				["skillId"] = 80800400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "80MVP装备狙击来福独有属性",
+	},
+	[8900001] = {
+		["StaticId"] = 8900001,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900002] = {
+		["StaticId"] = 8900002,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900003] = {
+		["StaticId"] = 8900003,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900004] = {
+		["StaticId"] = 8900004,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900005] = {
+		["StaticId"] = 8900005,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900006] = {
+		["StaticId"] = 8900006,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900007] = {
+		["StaticId"] = 8900007,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900008] = {
+		["StaticId"] = 8900008,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900009] = {
+		["StaticId"] = 8900009,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900010] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900010,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89003001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900011] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900011,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89003002,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900012] = {
+		["StaticId"] = 8900012,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900013] = {
+		["StaticId"] = 8900013,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900014] = {
+		["StaticId"] = 8900014,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900015] = {
+		["StaticId"] = 8900015,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900016] = {
+		["StaticId"] = 8900016,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900018] = {
+		["StaticId"] = 8900018,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.09,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80900100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备手枪独有属性",
+	},
+	[8900019] = {
+		["StaticId"] = 8900019,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.7,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80900200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备霰弹枪独有属性",
+	},
+	[8900020] = {
+		["StaticId"] = 8900020,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+					3,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.0012,
+					0.15,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80900300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备自动来福独有属性",
+	},
+	[8900021] = {
+		["StaticId"] = 8900021,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.35,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 80900400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备狙击来福独有属性",
+	},
+	[8900101] = {
+		["StaticId"] = 8900101,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900102] = {
+		["StaticId"] = 8900102,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900103] = {
+		["StaticId"] = 8900103,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900104] = {
+		["StaticId"] = 8900104,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900105] = {
+		["StaticId"] = 8900105,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900106] = {
+		["StaticId"] = 8900106,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900107] = {
+		["StaticId"] = 8900107,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900108] = {
+		["StaticId"] = 8900108,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900109] = {
+		["StaticId"] = 8900109,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900110] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900110,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89003001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900111] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900111,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89003002,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900112] = {
+		["StaticId"] = 8900112,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900113] = {
+		["StaticId"] = 8900113,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900114] = {
+		["StaticId"] = 8900114,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900115] = {
+		["StaticId"] = 8900115,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900116] = {
+		["StaticId"] = 8900116,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900118] = {
+		["StaticId"] = 8900118,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.09,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80900100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备手枪独有属性",
+	},
+	[8900119] = {
+		["StaticId"] = 8900119,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.7,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80900200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备霰弹枪独有属性",
+	},
+	[8900120] = {
+		["StaticId"] = 8900120,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+					3,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.0012,
+					0.15,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80900300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备自动来福独有属性",
+	},
+	[8900121] = {
+		["StaticId"] = 8900121,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.35,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 80900400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备狙击来福独有属性",
+	},
+	[8900201] = {
+		["StaticId"] = 8900201,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900202] = {
+		["StaticId"] = 8900202,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900203] = {
+		["StaticId"] = 8900203,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900204] = {
+		["StaticId"] = 8900204,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900205] = {
+		["StaticId"] = 8900205,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900206] = {
+		["StaticId"] = 8900206,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900207] = {
+		["StaticId"] = 8900207,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900208] = {
+		["StaticId"] = 8900208,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900209] = {
+		["StaticId"] = 8900209,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900210] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900210,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89003001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900211] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900211,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89003002,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900212] = {
+		["StaticId"] = 8900212,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900213] = {
+		["StaticId"] = 8900213,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900214] = {
+		["StaticId"] = 8900214,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900215] = {
+		["StaticId"] = 8900215,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900216] = {
+		["StaticId"] = 8900216,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900217] = {
+		["StaticId"] = 8900217,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {},
+				["argumentValue"] = {},
+				["improvedLevel"] = 0,
+				["skillId"] = 89007000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP亡灵巫师时装属性",
+	},
+	[8900218] = {
+		["StaticId"] = 8900218,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.09,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80900100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备手枪独有属性",
+	},
+	[8900219] = {
+		["StaticId"] = 8900219,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.7,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80900200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备霰弹枪独有属性",
+	},
+	[8900220] = {
+		["StaticId"] = 8900220,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+					3,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.0012,
+					0.15,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80900300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备自动来福独有属性",
+	},
+	[8900221] = {
+		["StaticId"] = 8900221,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.35,
+				},
+				["improvedLevel"] = 2,
+				["skillId"] = 80900400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备狙击来福独有属性",
+	},
+	[8900301] = {
+		["StaticId"] = 8900301,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900302] = {
+		["StaticId"] = 8900302,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900303] = {
+		["StaticId"] = 8900303,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900304] = {
+		["StaticId"] = 8900304,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900305] = {
+		["StaticId"] = 8900305,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900306] = {
+		["StaticId"] = 8900306,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900307] = {
+		["StaticId"] = 8900307,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900308] = {
+		["StaticId"] = 8900308,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900309] = {
+		["StaticId"] = 8900309,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900310] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900310,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89003001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900311] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900311,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89003002,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900312] = {
+		["StaticId"] = 8900312,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900313] = {
+		["StaticId"] = 8900313,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900314] = {
+		["StaticId"] = 8900314,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900315] = {
+		["StaticId"] = 8900315,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900316] = {
+		["StaticId"] = 8900316,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900318] = {
+		["StaticId"] = 8900318,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.09,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80900100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备手枪独有属性",
+	},
+	[8900319] = {
+		["StaticId"] = 8900319,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.7,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80900200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备霰弹枪独有属性",
+	},
+	[8900320] = {
+		["StaticId"] = 8900320,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+					3,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.0012,
+					0.15,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80900300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备自动来福独有属性",
+	},
+	[8900321] = {
+		["StaticId"] = 8900321,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.35,
+				},
+				["improvedLevel"] = 3,
+				["skillId"] = 80900400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备狙击来福独有属性",
+	},
+	[8900401] = {
+		["StaticId"] = 8900401,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900402] = {
+		["StaticId"] = 8900402,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900403] = {
+		["StaticId"] = 8900403,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900404] = {
+		["StaticId"] = 8900404,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900405] = {
+		["StaticId"] = 8900405,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900406] = {
+		["StaticId"] = 8900406,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900407] = {
+		["StaticId"] = 8900407,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900408] = {
+		["StaticId"] = 8900408,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.015,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89002000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900409] = {
+		["StaticId"] = 8900409,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89003000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900410] = {
+		["Conditions"] = {
+			{
+				["slot"] = 0,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900410,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89003001,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900411] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 8900411,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.005,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89003002,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900412] = {
+		["StaticId"] = 8900412,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900413] = {
+		["StaticId"] = 8900413,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.05,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89004000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900414] = {
+		["StaticId"] = 8900414,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900415] = {
+		["StaticId"] = 8900415,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900416] = {
+		["StaticId"] = 8900416,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 89001000,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备独有属性",
+	},
+	[8900418] = {
+		["StaticId"] = 8900418,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.09,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80900100,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备手枪独有属性",
+	},
+	[8900419] = {
+		["StaticId"] = 8900419,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.7,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80900200,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备霰弹枪独有属性",
+	},
+	[8900420] = {
+		["StaticId"] = 8900420,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+					3,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.0012,
+					0.15,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80900300,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备自动来福独有属性",
+	},
+	[8900421] = {
+		["StaticId"] = 8900421,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+					2,
+				},
+				["argumentValue"] = {
+					0.09,
+					0.35,
+				},
+				["improvedLevel"] = 4,
+				["skillId"] = 80900400,
+				["type"] = 2,
+			},
+		},
+		["name"] = "90MVP装备狙击来福独有属性",
+	},
+	[81204004] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 81204004,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 0,
+				["skillId"] = 81204004,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+	[81204104] = {
+		["Conditions"] = {
+			{
+				["slot"] = 1,
+				["type"] = "EquipSlot",
+			},
+		},
+		["StaticId"] = 81204104,
+		["attrs"] = {
+			{
+				["argumentOrder"] = {
+					1,
+				},
+				["argumentValue"] = {
+					0.01,
+				},
+				["improvedLevel"] = 1,
+				["skillId"] = 81204004,
+				["type"] = 2,
+			},
+		},
+		["name"] = "120级MVP武器独有属性",
+	},
+}
+local baseTable = 
+{
+	["Conditions"] = {},
+	["OnlyShowAttrDesc"] = 0,
+	["attrDesc"] = {},
+	["name"] = "60MVP装备独有属性",
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;
