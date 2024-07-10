@@ -1,7 +1,12 @@
 import subprocess
 import os
 
-TEMPLATE_FILE_NAME = f"json_serializer_template_basic.lua"
+"""
+`json_serializer_template_basic.lua` is a basic template that only contains the basic structure of the lua file. Meanwhile the `json_serialuizer_template.lua` is a more complex template that contains the basic structure and the `__default_values` function that is used to set the default values of the table. To run the script with the basic template, uncomment the `TEMPLATE_FILE_NAME` variable and comment the `TEMPLATE_FILE_NAME` variable that is used to run the script with the complex template.
+"""
+
+# TEMPLATE_FILE_NAME = f"json_serializer_template_basic.lua"
+TEMPLATE_FILE_NAME = f"json_serializer_template.lua"
 
 TARGET_FILES = [
   "data_dropV2_DropV2.bytes",
@@ -106,12 +111,16 @@ TARGET_FILES = [
   "data_pet_PetInitEndowment.bytes",
 ]
 
+
+if not os.path.exists("JSON"):
+  os.makedirs("JSON")
+
 for TARGET_FILE in TARGET_FILES:
   FILE_NAME = TARGET_FILE.replace("data_", "").replace(".bytes", "")
   TITLE = TARGET_FILE.replace(".bytes", "")
 
   TABLE = []
-  with open(f"TextAsset//{TARGET_FILE}", "r", encoding="utf8") as filename:
+  with open(f"20240618/TextAssets/{TARGET_FILE}", "r", encoding="utf8") as filename:
     contents = filename.readlines()
 
     for content in contents:
@@ -155,4 +164,4 @@ for TARGET_FILE in TARGET_FILES:
   with open(f"json_serializer.lua", "w", encoding="utf8") as filename:
     filename.writelines(FINAL_LUA)
 
-  subprocess.call("C://ProgramData//chocolatey//lib//lua53//tools//lua53.exe json_serializer.lua", shell=True)
+  subprocess.call("lua json_serializer.lua", shell=True)
